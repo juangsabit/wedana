@@ -7,7 +7,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
 
-    <title>SalesPage - Creative Landing Page Template</title>
+    <title>Wedana Group</title>
     
     <!-- Loading Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,11 +27,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap" rel="stylesheet">
 
     <!-- Font Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/logo/plilogo.png">
     
 </head>
 
 <body>
+
+    <?php include('data.php') ?>
 
     <!--begin header -->
     <header class="header">
@@ -43,7 +45,7 @@
             <div class="container">
 
                     <!--begin logo -->
-                    <a class="navbar-brand" href="#">WedanaGroup</a>
+                    <a class="navbar-brand" href="#">Potato Land Indonesia</a>
                     <!--end logo -->
 
                     <!--begin navbar-toggler -->
@@ -62,9 +64,11 @@
 
                             <li><a href="#about">About</a></li>
 
+                            <li><a href="#service">Service</a></li>
+
                             <li><a href="#gallery">Products</a></li>
 
-                            <li><a href="#testimonials">Testimonials</a></li>
+                            <!-- <li><a href="#testimonials">Testimonials</a></li> -->
 
                             <li><a href="#article">Article</a></li>
 
@@ -99,27 +103,27 @@
                 <!--begin col-md-6-->
                 <div class="col-md-6">
 
-                    <h1>We're Selling The Best Quality Ginger.</h1>
+                    <h1>Delivering Indonesian Premium <span style="color:#FFCA33">Potato Products</span> Across The Globe</h1>
 
                     <p class="hero-text">Quality as a sales and services that make it easier for customers to qualify a product as well as possible.
                     </p>
 
                     <!--begin popup-video-wrapper-->
-                    <div class="popup-gallery-wrapper">
+                    <!-- <div class="popup-gallery-wrapper"> -->
                         
                         <!--begin popup-video-->
-                        <div class="popup-gallery hero-gallery">
+                        <!-- <div class="popup-gallery hero-gallery">
                             
                             <a class="popup4 video-icon" href="https://www.youtube.com/watch?v=FPfQMVf4vwQ">
                                 <i class="fas fa-play"></i>
                             </a>
 
-                        </div>
+                        </div> -->
                         <!--end popup-video-->
 
-                        <p class="popup-video-text">Watch Presentation Video</p>
+                        <!-- <p class="popup-video-text">Watch Presentation Video</p> -->
 
-                    </div>
+                    <!-- </div> -->
                     <!--end popup-video-wrapper-->
 
                 </div>
@@ -140,83 +144,129 @@
     </section>
     <!--end home section -->
 
-    <!--begin section-white -->
-    <section class="section-white" id="about">
-
-        <!--begin container -->
+    <!--begin section-grey -->
+    <section class="section-grey" id="about">
+        
+        <!--begin container-->
         <div class="container">
 
-            <!--begin row -->
-            <div class="row">
+            <!--begin row-->
+            <div class="row align-items-center">
+            
+                <!--begin col-md-6-->
+                <div class="col-md-6 wow slideInLeft" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; animation-name: slideInLeft;">
 
-                <!--begin col-md-12 -->
-                <div class="col-md-12 text-center margin-bottom-10">
+                    <div class="margin-right-15">
 
-                    <h2 class="section-title">What We Do</h2>
+                        <img src="images/logo/pli.png" class="width-100 image-shadow bottom-margins-images" alt="pic">
 
-                    <p class="section-subtitle"><b>WEDANA LESTARI GROUP</b> is an Indonesian company and <br> supply ginger products which has top value and benefits for our consumers</p>
+                    </div>
                     
                 </div>
-                <!--end col-md-12 -->
+                <!--end col-sm-6-->
+                
+                <!--begin col-md-6-->
+                <div class="col-md-6">
 
-            </div>
-            <!--end row -->
+                    <h3>World Best Quality of Potato Product</h3>
 
-        </div>
-        <!--end container -->
+                    <p><b>Potato Land Indonesia</b> is a leading supplier of fresh potato products from Indonesia. We are an Indonesian company engaged in the supply of high quality fresh potatoes that have value or benefits for our customers.</p>
 
-        <!--begin services-wrapper -->
-        <div class="services-wrapper">
+                    <p>Our company has studied and been led by experienced professionals to become a trusted company in supplying fresh potato products by working directly with local farmers to reach the global market where initial success brought the company to grow exponentially.</p>
 
-            <!--begin container -->
-            <div class="container">
+                    <p><b>Potato Land Indonesia</b> is a fresh potato product export company. We believe in creating mutually beneficial sustainable fresh potato product solutions, so we work closely with our local growers, customers and authorities to ensure mutually beneficial growth and success for us.<p>
+                    
+                    <!-- <ul class="benefits">
+                        <li><i class="fas fa-check"></i> We are the first hand to sell potato products.</li>
+                        <li><i class="fas fa-check"></i> Competitive price.</li>
+                        <li><i class="fas fa-check"></i> Sustainable potato products.</li>
+                    </ul> -->
 
-                <!--begin row -->
-                <div class="row justify-content-center">
+                    <a href="https://wa.me/6287718236889" class="btn-red small scrool">Company Profile</a>
 
-                    <!--begin col-md-4 -->
-                    <div class="col-md-4">
-
-                        <div class="main-services">
-
-                            <i class="far fa-heart"></i>
-
-                            <h4>Vision</h4>
-
-                            <p>Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum.</p>
-                            
-                        </div>
-
-                    </div>
-                    <!--end col-md-4 -->
-
-                    <!--begin col-md-4 -->
-                    <div class="col-md-4">
-
-                        <div class="main-services">
-
-                            <i class="far fa-chart-bar"></i>
-
-                            <h4>Mission</h4>
-
-                            <p>Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum.</p>
-                            
-                        </div>
-
-                    </div>
-                    <!--end col-md-4 -->
-               
                 </div>
-                <!--end row -->
+                <!--end col-md-6-->
+            
+            </div>
+            <!--end row-->
+    
+        </div>
+        <!--end container-->
+    
+    </section>
+    <!--end section-grey-->
+
+    <!--begin partners-section-->
+    <div class="partners-section" id="service">
+        
+        <!--begin container-->
+        <div class="container">
+
+            <!--begin row-->
+            <div class="row">
+            
+                <!--begin col-sm-12-->
+                <div class="col-md-12 mx-auto text-center partners">
+                    <p style="color:white"><i>"CHOOSING US AS A BUSINESS PARTNER, YOU WILL PARTNER WITH A <br> TEAM OF PEOPLE WHO ARE VERY PROFESSIONAL AND HAVE A SERVICE"</i></p>
+                    <!-- <img src="images/award4a.png" class="partners" alt="image">
+                    <img src="images/award5.png" class="partners" alt="image">
+                    <img src="images/award3a.png" class="partners" alt="image">
+                    <img src="images/award1a.png" class="partners" alt="image"> -->
+                </div>
+                <!--end col-sm-12-->
                 
             </div>
-            <!--end container -->
-
+            <!--end row-->
+            
         </div>
-        <!--end services-wrapper -->
+        <!--end container-->
+    
+    </div> 
+    <!--end partners-section-->
+    
+    <!--begin section-white -->
+    <section class="section-white">
+        
+        <!--begin container-->
+        <div class="container">
 
+            <!--begin row-->
+            <div class="row align-items-center">
+            
+                <!--begin col-md-6-->
+                <div class="col-md-6">
+
+                    <h3>Product Services</h3>
+
+                    <p>We are available for every demand and inquiry, every time you needed. Our experienced team are ready to discuss with you to find the product, price & specification you want to fulfill every customer's request.</p>
+                
+                    <p class="blockquote-left">We provide the best service to every producer and consumer in order to be a reliable and professional company in the management of the national commodity market, and able to create distribution channel for all entrepreneur, from producer to consumer.</p>
+                
+                    <p>We are very professional to work with you, we have extraordinary natural resources, we also prioritize fast response services, which will always serve sincerely any information needs for your regarding products. Our company prioritizes service and quality, we will provide the best for you.</p>
+
+                </div>
+                <!--end col-md-6-->
+            
+                <!--begin col-md-6-->
+                <div class="col-md-6 wow slideInRight" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; animation-name: slideInRight;">
+
+                    <div class="margin-left-15">
+
+                        <img src="images/productservices.jpg" class="width-100 image-shadow top-margins-images" alt="pic">
+
+                    </div>
+                    
+                </div>
+                <!--end col-sm-6-->
+                
+            </div>
+            <!--end row-->
+    
+        </div>
+        <!--end container-->
+    
     </section>
-    <!--end section-white -->
+    <!--end section-white-->
 
     <!--begin gallery section -->
     <section class="section-bg-1 showcase-wrapper small-padding-bottom" id="gallery">
@@ -244,101 +294,61 @@
 
             <!--begin row-->
             <div class="container-fluid pl-5 pr-5">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center customCard">
     
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <figure class="gallery-item">
-    
-                            <!--begin popup-gallery-->
-                            <div class="popup-gallery">
-                                <a class="popup2" href="images/fresh ginger-1.jpg">
-                                    <img src="images/fresh ginger-1.jpg" class="width-100" alt="pic">
-                                    <span class="eye-wrapper"><i class="fa fa-search-plus eye-icon" style="font-size: 38px;"></i></span>
-                                </a>
-                            </div>
-                            <!--end popup-gallery-->
-                        
-                            <!--begin portfolio-box -->
-                            <div class="portfolio-box">
-                                <h3><a href="#">Fresh Ginger</a></h3>
-                                <p class="portfolio-info">The best quality fresh ginger that is grown sustainably does not go through a factory process</p>
-                            </div>
-                            <!--end portfolio-box -->
-    
-                        </figure>
-                    </div>
-    
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <figure class="gallery-item">
-    
-                            <!--begin popup-gallery-->
-                            <div class="popup-gallery">
-                                <a class="popup2" href="images/dry ginger.jpg">
-                                    <img src="images/dry ginger.jpg" class="width-100" alt="pic">
-                                    <span class="eye-wrapper"><i class="fa fa-search-plus eye-icon" style="font-size: 38px;"></i></span>
-                                </a>
-                            </div>
-                            <!--end popup-gallery-->
-                        
-                            <!--begin portfolio-box -->
-                            <div class="portfolio-box">
-                                <h3><a href="#">Dry ginger</a></h3>
-                                <p class="portfolio-info">Dry ginger with an integrated machine drying process so as to get the best quality dried ginger</p>
-                            </div>
-                            <!--end portfolio-box -->
-    
-                        </figure>
-                    </div>
-    
-                </div>
-                <!--end row -->
-    
-                <!--begin row-->
-                <div class="row justify-content-center">
-    
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <figure class="gallery-item">
-    
-                            <!--begin popup-gallery-->
-                            <div class="popup-gallery">
-                                <a class="popup2" href="images/produk jahe kering 1.jpg">
-                                    <img src="images/produk jahe kering 1.jpg" class="width-100" alt="pic">
-                                    <span class="eye-wrapper"><i class="fa fa-search-plus eye-icon" style="font-size: 38px;"></i></span>
-                                </a>
-                            </div>
-                            <!--end popup-gallery-->
-                        
-                            <!--begin portfolio-box -->
-                            <div class="portfolio-box">
-                                <h3><a href="#">Ginger powder</a></h3>
-                                <p class="portfolio-info">Ginger powder with an integrated machine processing process so as to get the best quality powdered ginger</p>
-                            </div>
-                            <!--end portfolio-box -->
-    
-                        </figure>
-                    </div>
-    
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <figure class="gallery-item">
-    
-                            <!--begin popup-gallery-->
-                            <div class="popup-gallery">
-                                <a class="popup2" href="images/red.jpg">
-                                    <img src="images/red.jpg" class="width-100" alt="pic">
-                                    <span class="eye-wrapper"><i class="fa fa-search-plus eye-icon" style="font-size: 38px;"></i></span>
-                                </a>
-                            </div>
-                            <!--end popup-gallery-->
-                        
-                            <!--begin portfolio-box -->
-                            <div class="portfolio-box">
-                                <h3><a href="#">Red Ginger Fresh</a></h3>
-                                <p class="portfolio-info">Eco-friendly pots made of Coconut coir, not easily broken, durable in sunligt and able to absorb water for soil availability. One of the main benefits of Coir Pot is beautifying plants, a source of organic material for planting media</p>
-                            </div>
-                            <!--end portfolio-box -->
-    
-                        </figure>
-                    </div>
+                    <?php foreach ($dataProduk as $row) { ?>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <figure class="gallery-item">
+        
+                                <!--begin popup-gallery-->
+                                <div class="popup-gallery">
+                                    <a data-toggle="modal" data-target="<?= "#modal".$row['id'] ?>">
+                                        <img src="images/produk/<?= $row['gambar'] ?>" class="width-100" alt="pic">
+                                        <span class="eye-wrapper"><i class="fa fa-search-plus eye-icon" style="font-size: 38px;"></i></span>
+                                    </a>
+                                </div>
+                                <!--end popup-gallery-->
+                            
+                                <!--begin portfolio-box -->
+                                <div class="portfolio-box">
+                                    <h3><a href="#" data-toggle="modal" data-target="<?= "#modal".$row['id'] ?>"><?= $row['namaProduk'] ?></a></h3>
+                                    <p class="portfolio-info"><?= $row['caption'] ?></p>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="<?= "modal".$row['id'] ?>" tabindex="-1" role="dialog" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle"><?= $row['namaProduk'] ?></h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="images/produk/<?= $row['gambar'] ?>" class="width-100" alt="pic">
+                                                <table align="center" class="table table-hover table-striped" style="width:100%">					
+                                                    <tbody>
+                                                        <tr><td colspan="3" align="left"><i><?= $row['deskripsi'] ?></i></td></tr>
+                                                        <tr><td>Code</td><td width="1%">:</td><td><?= $row['code'] ?></td></tr>
+                                                        <tr><td>Grade</td><td width="1%">:</td><td><?= $row['grade'] ?></td></tr>
+                                                        <tr><td>Material</td><td width="1%">:</td><td><?= $row['material'] ?></td></tr>
+                                                        <tr><td>Capacity (month)</td><td width="1%">:</td><td><?= $row['capacity'] ?></td></tr>
+                                                        <tr><td>Min Order</td><td width="1%">:</td><td><?= $row['minOrder'] ?></td></tr>
+                                                        <tr><td>Packaging & Shiping</td><td width="1%">:</td><td><?= $row['packagingShiping'] ?></td></tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end portfolio-box -->
+        
+                            </figure>
+                        </div>
+                    <?php } ?>
     
                 </div>
                 <!--end row -->
@@ -349,163 +359,86 @@
     </section>
     <!--end gallery section -->
 
-    <!--begin section-grey -->
-    <section class="section-grey">
-        
-        <!--begin container-->
-        <div class="container">
+    <!--begin section-white -->
+    <!-- <section class="section-white"> -->
 
-            <!--begin row-->
-            <div class="row align-items-center">
-            
-                <!--begin col-md-6-->
-                <div class="col-md-6 wow slideInLeft" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; animation-name: slideInLeft;">
+    <!-- begin container -->
+    <!-- <div class="container"> -->
 
-                    <div class="margin-right-15">
+        <!--begin row -->
+        <!-- <div class="row"> -->
 
-                        <img src="images/wdn.png" class="width-100 image-shadow bottom-margins-images" alt="pic">
+            <!--begin col-md-12 -->
+            <!-- <div class="col-md-12 text-center margin-bottom-10">
 
-                    </div>
-                    
-                </div>
-                <!--end col-sm-6-->
+                <h2 class="section-title">What We Do</h2>
+                <p class="section-subtitle"><b> Potato Land Indonesia</b> is a leading supplier of fresh potato products from Indonesia. <br> We are an Indonesian company engaged in the supply of high quality <br> fresh potatos that have value or benefits for our customers.
+                </p>
                 
-                <!--begin col-md-6-->
-                <div class="col-md-6">
+            </div> -->
+            <!--end col-md-12 -->
 
-                    <h3>Discover how we can help you to deliver the best ginger</h3>
+        <!-- </div> -->
+        <!--end row -->
 
-                    <p>Velis demo enim ipsam voluptatem quia voluptas sit aspernatur netsum lorem fugit, seditum netis velas matrix net nesciunt.</p>
-                    
-                    <ul class="benefits">
-                        <li><i class="fas fa-check"></i> Quias netus magni netsum eos qui ratione sequi.</li>
-                        <li><i class="fas fa-check"></i> Venis ratione sequi netus enim quia tempor magni.</li>
-                        <li><i class="fas fa-check"></i> Enim ipsam netus voluptatem quia voluptas.</li>
-                    </ul>
+    <!-- </div> -->
+    <!--end container -->
 
-                    <a href="#" class="btn-red small scrool">Discover More</a>
-
-                </div>
-                <!--end col-md-6-->
-            
-            </div>
-            <!--end row-->
-    
-        </div>
-        <!--end container-->
-    
-    </section>
-    <!--end section-grey-->
-
-    <!--begin testimonials section -->
-    <section class="section-grey" id="testimonials">
+    <!--begin services-wrapper -->
+    <!-- <div class="services-wrapper"> -->
 
         <!--begin container -->
-        <div class="container">
+        <!-- <div class="container"> -->
 
             <!--begin row -->
-            <div class="row">
-        
-                <!--begin col-md-12 -->
-                <div class="col-md-12 text-center padding-bottom-40">
-
-                    <h2 class="section-title">Clients Testimonials</h2>
-
-                    <p class="section-subtitle">What People Are Saying.</p>
-                    
-                </div>
-                <!--end col-md-12 -->
+            <!-- <div class="row justify-content-center"> -->
 
                 <!--begin col-md-4 -->
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
 
-                    <!--begin testim-inner -->
-                    <div class="testim-inner first">
+                    <div class="main-services">
 
-                        <img src="http://placehold.it/200x200" alt="testimonials" class="testim-img">
+                        <i class="far fa-heart"></i>
+
+                        <h4>Vision</h4>
+
+                        <p>Deliver the best quality Indonesian potato products to the world</p>
                         
-                        <p>The attention of a traveller, should be particularly turned to the various works of the nature.</p>
+                    </div> -->
 
-                        <h6>Emily Richards<span class="job-text"> - Copywriter</span></h6>
-
-                        <div class="testim-rating">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        </div>
-
-                    </div>
-                    <!--end testim-inner -->
-
-                </div>
+                <!-- </div> -->
                 <!--end col-md-4 -->
 
                 <!--begin col-md-4 -->
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
 
-                    <!--begin testim-inner -->
-                    <div class="testim-inner">
+                    <div class="main-services">
 
-                        <img src="http://placehold.it/200x200" alt="testimonials" class="testim-img">
+                        <i class="far fa-chart-bar"></i>
+
+                        <h4>Mission</h4>
+
+                        <p>Creating business to business solutions for sustainable potato products</p>
                         
-                        <p>The attention of a traveller, should be particularly turned to the various works of the nature.</p>
+                    </div> -->
 
-                        <h6>John Doe<span class="job-text"> -  General Manager</span></h6>
-
-                        <div class="testim-rating">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        </div>
-
-                    </div>
-                    <!--end testim-inner -->
-
-                </div>
+                <!-- </div> -->
                 <!--end col-md-4 -->
         
-                <!--begin col-md-4 -->
-                <div class="col-md-4">
-
-                    <!--begin testim-inner -->
-                    <div class="testim-inner">
-
-                        <img src="http://placehold.it/200x200" alt="testimonials" class="testim-img">
-                        
-                        <p>The attention of a traveller, should be particularly turned to the various works of the nature.</p>
-
-                        <h6>Jane Smith<span class="job-text"> - Web Designer</span></h6>
-
-                        <div class="testim-rating">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        </div>
-
-                    </div>
-                    <!--end testim-inner -->
-
-                </div>
-                <!--end col-md-4 -->
-
-            </div>
+            <!-- </div> -->
             <!--end row -->
             
-        </div>
+        <!-- </div> -->
         <!--end container -->
 
-    </section>
-    <!--end testimonials section -->
+    <!-- </div> -->
+    <!--end services-wrapper -->
 
+    <!-- </section> -->
+    <!--end section-white -->
 
     <!--begin features section -->
-    <section class="section-white" id="features">
+    <section class="section-grey" id="features">
 
         <!--begin container -->
         <div class="container">
@@ -518,7 +451,7 @@
 
                     <h2 class="section-title">Amazing Features</h2>
 
-                    <p class="section-subtitle">Quis autem velis ets reprehender net etid quiste voluptate.</p>
+                    <p class="section-subtitle">We believe in creating mutually beneficial sustainable fresh potato product solutions.</p>
 
                 </div>
                 <!--end col-md-12 -->
@@ -540,7 +473,7 @@
 
                             <h4>Integration</h4>
 
-                            <p>Integrated as ginger suppliers we establish partnerships with ginger farmers to ensure the availability of raw materials for universal purposes.</p>
+                            <p>Integrated as potato suppliers we establish partnerships with potato farmers to ensure the availability of raw materials for universal purposes.</p>
 
                         </div>
 
@@ -637,9 +570,9 @@
                 <!--begin col-md-12-->
                 <div class="col-md-7 mx-auto text-center padding-bottom-40">
 
-                    <h2 class="section-title">Latest Blog Posts</h2>
+                    <h2 class="section-title">Article</h2>
 
-                    <p class="section-subtitle">Utise wisi enim minim veniam, quis et stationes ullamcorper nets suscipit ets lobotis nisle consequat nihis etim aspernatur netsum.</p>
+                    <p class="section-subtitle">News about potatoes that continue to grow in Indonesia.</p>
 
                 </div>
                 <!--end col-md-12 -->
@@ -659,8 +592,8 @@
                         <!--begin col-md-6-->
                         <div class="col-md-6">
 
-                            <a href="#">
-                                <img src="http://placehold.it/555x415" class="width-100 blog-image" alt="pic">
+                            <a target="_blank" href="https://www.antaranews.com/berita/1409426/kementan-catat-ekspor-kentang-ke-singapura-malaysia-meningkat">
+                                <img src="https://img.antaranews.com/cache/800x533/2020/01/13/Harga-Kentang-Melonjak-130120-aez-2.jpg.webp" class="width-100 blog-image" alt="pic">
                             </a>
 
                         </div>
@@ -669,11 +602,9 @@
                         <!--begin col-md-6-->
                         <div class="col-md-6">
 
-                            <h5 class="blog-category">Web Design</h5>
+                            <h3 class="blog-title"><a target="_blank" href="https://www.antaranews.com/berita/1409426/kementan-catat-ekspor-kentang-ke-singapura-malaysia-meningkat">Kementan catat ekspor kentang ke Singapura-Malaysia meningkat</a></h3>
 
-                            <h3 class="blog-title"><a href="#">Affinity Designer The Complete Course</a></h3>
-
-                            <a href="#" class="blog-link">Read More</a>
+                            <a target="_blank" href="https://www.antaranews.com/berita/1409426/kementan-catat-ekspor-kentang-ke-singapura-malaysia-meningkat" class="blog-link">Read More</a>
 
                         </div>
                         <!--end col-sm-6-->
@@ -693,8 +624,8 @@
                         <!--begin col-md-6-->
                         <div class="col-md-6">
 
-                            <a href="#">
-                                <img src="http://placehold.it/555x415" class="width-100 blog-image" alt="pic">
+                            <a target="_blank" href="https://retizen.republika.co.id/posts/14518/potensi-ekpor-dan-produksi-kentang-indonesia-menuju-modern">
+                                <img src="https://static.republika.co.id/uploads/member/images/news/gqrc358ab7.jpg" class="width-100 blog-image" alt="pic">
                             </a>
 
                         </div>
@@ -703,11 +634,9 @@
                         <!--begin col-md-6-->
                         <div class="col-md-6">
 
-                            <h5 class="blog-category">Vlog News</h5>
-
-                            <h3 class="blog-title"><a href="#">How to Prepare to Record a Vlog</a></h3>
+                            <h3 class="blog-title"><a target="_blank" href="https://retizen.republika.co.id/posts/14518/potensi-ekpor-dan-produksi-kentang-indonesia-menuju-modern">Potensi Ekpor dan Produksi Kentang Indonesia Menuju Modern</a></h3>
                             
-                            <a href="#" class="blog-link">Read More</a>
+                            <a target="_blank" href="https://retizen.republika.co.id/posts/14518/potensi-ekpor-dan-produksi-kentang-indonesia-menuju-modern" class="blog-link">Read More</a>
 
                         </div>
                         <!--end col-sm-6-->
@@ -733,8 +662,8 @@
                         <!--begin col-md-6-->
                         <div class="col-md-6">
 
-                            <a href="#">
-                                <img src="http://placehold.it/555x415" class="width-100 blog-image" alt="pic">
+                            <a target="_blank" href="https://www.pertanian.go.id/home/?show=news&act=view&id=4288">
+                                <img src="https://morningchores.com/wp-content/uploads/2020/04/7-Critical-Tips-to-Improve-Potato-Production-in-Beds-and-Containers-FI.jpg" class="width-100 blog-image" alt="pic">
                             </a>
 
                         </div>
@@ -743,11 +672,9 @@
                         <!--begin col-md-6-->
                         <div class="col-md-6">
 
-                            <h5 class="blog-category">LinkedIn Guide</h5>
-
-                            <h3 class="blog-title"><a href="#">The Ultimate Guide To Better LinkedIn Ads</a></h3>
+                            <h3 class="blog-title"><a target="_blank" href="https://www.pertanian.go.id/home/?show=news&act=view&id=4288">Meroket, Permintaan Ekspor Kentang asal Sumut</a></h3>
                             
-                            <a href="#" class="blog-link">Read More</a>
+                            <a target="_blank" href="https://www.pertanian.go.id/home/?show=news&act=view&id=4288" class="blog-link">Read More</a>
 
                         </div>
                         <!--end col-sm-6-->
@@ -767,8 +694,8 @@
                         <!--begin col-md-6-->
                         <div class="col-md-6">
 
-                            <a href="#">
-                                <img src="http://placehold.it/555x415" class="width-100 blog-image" alt="pic">
+                            <a target="_blank" href="https://databoks.katadata.co.id/datapublish/2022/06/13/pandemi-mereda-produksi-kentang-indonesia-kembali-meningkat-61-pada-2021">
+                                <img src="https://harvesttotable.com/wp-content/uploads/2009/01/canstockphoto18445615-1024x768.jpg" class="width-100 blog-image" alt="pic">
                             </a>
 
                         </div>
@@ -777,11 +704,9 @@
                         <!--begin col-md-6-->
                         <div class="col-md-6">
 
-                            <h5 class="blog-category">Shopify Tuts</h5>
-
-                            <h3 class="blog-title"><a href="#">Online Shopping Made Easy - New Tutorial</a></h3>
+                            <h3 class="blog-title"><a target="_blank" href="https://databoks.katadata.co.id/datapublish/2022/06/13/pandemi-mereda-produksi-kentang-indonesia-kembali-meningkat-61-pada-2021">Produksi Kentang Indonesia Kembali Meningkat 6,1% pada 2021</a></h3>
                             
-                            <a href="#" class="blog-link">Read More</a>
+                            <a target="_blank" href="https://databoks.katadata.co.id/datapublish/2022/06/13/pandemi-mereda-produksi-kentang-indonesia-kembali-meningkat-61-pada-2021" class="blog-link">Read More</a>
 
                         </div>
                         <!--end col-sm-6-->
@@ -801,73 +726,129 @@
     </section>
     <!--end blog section -->
 
-    <!--begin section-bg-2 -->
-    <section class="section-bg-2">
+    <!--begin section-white -->
+    <section class="section-grey no-padding">
         
-        <div class="section-bg-overlay"></div>
-
         <!--begin container-->
-        <div class="container">
+        <div class="container-fluid px-0">
 
             <!--begin row-->
-            <div class="row">
+            <div class="row no-gutters">
             
-                <!--begin col md 7 -->
-                <div class="col-md-7 mx-auto margin-bottom-20 text-center">
+                <!--begin col-md-6-->
+                <div class="col-md-6">
 
-                    <h2 class="white-text">Fun Facts About Our Agency</h2>
+                    <img src="images/about3.jpg" class="width-100" alt="Happy">
 
-                    <p class="white-text">Utise wisi enim minim veniam, quis et stationes ullamcorper netsumatum etsemat consequat nihis etim aspernatur netsum.</p>
-                    
                 </div>
-                <!--end col md 7-->
+                <!--end col-sm-6-->
+                
+                <!--begin col-md-6-->
+                <div class="col-md-6">
+
+                    <!--begin small-column-inside-->
+                    <div class="small-col-inside">
+
+                        <h3>Frequently Asked Question</h3>
+
+                        <!--begin accordion -->
+                        <div class="accordion" id="accordionFAQ">
+
+                            <!--begin card -->
+                            <div class="card">
+                                
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Payment terms
+                                    </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionFAQ">
+                                    <div class="card-body">
+                                    We accept payment via Letter of Credit and TT (Telegraph Transfer) bank transfer to our company account in Indonesia.
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--end card -->
+
+                            <!--begin card -->
+                            <div class="card">
+
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Shipment
+                                    </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionFAQ">
+                                    <div class="card-body">
+                                    We are shipping Potato from the port of Semarang (Tanjung Emas, ID SRG) or Surabaya (Tanjung Perak, ID SUB) Indonesia. We sell our potato on a FOB.
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--end card -->
+
+                            <!--begin card -->
+                            <div class="card">
+
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Documents
+                                    </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionFAQ">
+                                    <div class="card-body">
+                                    We provide all document for Potato shipping and exporting such as Invoice, Packing list, B/L, SHT, COO and MSDS. So our customer do not need to be worry, because our company has provided every document for our customer needs
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--end card -->
+
+                            <!--begin card -->
+                            <div class="card">
+
+                                <div class="card-header" id="headingFour">
+                                    <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                      Quality Process
+                                    </button>
+                                    </h5>
+                                </div>
+                                
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionFAQ">
+                                    <div class="card-body">
+                                    1. <b>Collecting supplies</b>; from farmers in the field (garden) <br>
+                                    2. <b>Sorting process</b>; wherein this process our team selects and sorts from the harvested potatoes by only taking potatoes that are included in export specifications, free from rotten fruit, black or green skin, fruit that is too small, and also a fruit with an abnormal shape. <br>
+                                    3. <b>Washing process</b>; In this process, all potatoes are washed thoroughly and do not leave soil on the potatoes so that the pests carrying plant diseases are partially eliminated at this stage, in addition, there will also be a process of purifying pests and diseases (fumigation process) so that a fumigation certificate is issued. <br>
+                                    4. <b>Drying process</b>; The drying process is very important where optimally sun-dried potatoes at optimal temperatures will produce potatoes that are resistant to decay longer than those that are not dried and lower in terms of resistance to wear. <br>
+                                    5. <b>Packing process</b>; When our experts confirm all the potatoes meet the drying standards, the team will carry out packaging, where the granola potatoes we produce are packaged using wooden packaging which aims to reduce the excessive load on the potatoes that are under during the stuffing process in the container. Many producers do packaging using plastic or sacks, but we avoid it with consideration to significantly reduce the potatoes that fail to use after arriving in the destination country. <br>
+                                    6. <b>Stuffing Process</b>; Stuffing in containers is carried out immediately after packaging and in this case, we use reefer containers to maintain the quality and freshness of the potatoes we export.
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--end card -->
+
+                        </div>
+                        <!--end accordion -->
+
+                    </div>
+                    <!--end small-column-inside-->
+
+                </div>
+                <!--end col-md-6-->
             
-            </div>
-            <!--end row-->
-    
-            <!--begin row-->
-            <div class="row">
-        
-                <!--begin fun-facts-box -->
-                <div class="col-md-2 offset-md-2 fun-facts-box text-center">
-                    
-                    <i class="far fa-gem"></i>
-                    
-                    <p class="fun-facts-title"><span class="facts-numbers">1050+</span><br>Projects Completed</p>
-                    
-                </div>
-                <!--end fun-facts-box -->
-
-                <!--begin fun-facts-box -->
-                <div class="col-md-2 fun-facts-box text-center">
-                    
-                    <i class="far fa-heart"></i>
-                                               
-                    <p class="fun-facts-title"><span class="facts-numbers">217k</span><br>Happy Clients</p>
-                        
-                </div>
-                <!--end fun-facts-box -->
-
-                <!--begin fun-facts-box -->
-                <div class="col-md-2 fun-facts-box text-center">
-                    
-                    <i class="fas fa-award"></i>
-                                               
-                    <p class="fun-facts-title"><span class="facts-numbers">1210</span><br>Design Awards</p>
-                        
-                </div>
-                <!--end fun-facts-box -->
-
-                <!--begin fun-facts-box -->
-                <div class="col-md-2 fun-facts-box text-center">
-                    
-                    <i class="fas fa-anchor"></i>
-                                               
-                    <p class="fun-facts-title"><span class="facts-numbers">2137</span><br>Line Of Codes</p>
-                        
-                </div>
-                <!--end fun-facts-box -->
-
             </div>
             <!--end row-->
     
@@ -875,7 +856,7 @@
         <!--end container-->
     
     </section>
-    <!--end section-bg-2 -->
+    <!--end section-white -->
 
     <!--begin contact -->
     <section class="section-white" id="contact">
@@ -918,8 +899,7 @@
                 <div class="col-md-6 responsive-bottom-margins">
 
                     <h4>How to find us</h4>
-
-                    <iframe class="contact-maps wow slideInRight" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; animation-name: slideInRight;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.9050207912896!2d-0.14675028449633118!3d51.514958479636384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad554c335c1%3A0xda2164b934c67c1a!2sOxford+St%2C+London%2C+UK!5e0!3m2!1sen!2sro!4v1485889312335" width="600" height="370" style="border:0" allowfullscreen=""></iframe>
+                    <iframe class="contact-maps wow slideInRight" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; animation-name: slideInRight;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3415.5553624306813!2d109.12374617089017!3d-6.88882016251125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fb9c787089b59%3A0x4ce52f99eee48ea5!2sJl.%20Teuku%20Umar%20No.118%2C%20Debong%20Tengah%2C%20Kec.%20Tegal%20Sel.%2C%20Kota%20Tegal%2C%20Jawa%20Tengah%2052132!5e0!3m2!1sid!2sid!4v1682666033321!5m2!1sid!2sid" width="600" height="370" style="border:0" allowfullscreen=""></iframe>
 
                 </div>
                 <!--end col-md-6 -->
@@ -951,7 +931,7 @@
 
                     <p>118 Teuku Umar Street, Tegal City, ID</p>
                     
-                    <p><a href="mailto:sales@wedanagroup.com">sales@wedanagroup.com</a></p>
+                    <p><a href="mailto:business@potatoland.id">business@potatoland.id</a></p>
                     
                     <p>+62 877 1823 6889</p>
                     

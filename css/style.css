@@ -32,6 +32,20 @@ Version: 1.0
 /* 			               01. GENERAL LAYOUT                 */
 /* ========================================================== */
 
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place front is invalid - may break your css so removed */  
+    padding-top: 100px; /* Location of the box - don't know what this does?  If it is to move your modal down by 100px, then just change top below to 100px and remove this*/
+    left: 0;
+    right:0; /* Full width (left and right 0) */
+    top: 0;
+    bottom: 0; /* Full height top and bottom 0 */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    z-index: 9999; /* Sit on top - higher than any other z-index in your site*/
+}
+
 ul {
 	padding: 0;
 }
@@ -224,7 +238,7 @@ iframe {
 }
 
 .section-bg-1{
-    background: url(../images/bg.jpg);
+    background: url(../images/potato.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -235,7 +249,7 @@ iframe {
 }
 
 .section-bg-2{
-    background: url(../images/bg.jpg);
+    background: url(../images/potato.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -246,7 +260,7 @@ iframe {
 }
 
 .section-bg-3{
-    background: url(../images/bg.jpg);
+    background: url(../images/potato.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -880,7 +894,7 @@ p.contact-info i{
 	z-index: 999;
   	padding-top: 250px;
   	padding-bottom: 140px;
-  	background: url(../images/bg.jpg) top center no-repeat;
+  	background: url(../images/bg1.jpg) top center no-repeat;
 	background-size: cover;
 }
 
@@ -1969,6 +1983,27 @@ ul.partners-mentions li img:hover {
 /* 			             12. MEDIA QUERIES                    */
 /* ========================================================== */
 
+@media (max-width: 2000px) {
+	.customCard {
+		padding-left:220px;
+		padding-right:220px;
+	}
+}
+
+@media (max-width: 1496px) {
+	.customCard {
+		padding-left:220px;
+		padding-right:220px;
+	}
+}
+
+@media (max-width: 1196px) {
+	.customCard {
+		padding-left:120px;
+		padding-right:120px;
+	}
+}
+
 @media (max-width: 991px) {
 
 	.navbar-fixed-top.opaque {
@@ -1997,6 +2032,11 @@ ul.partners-mentions li img:hover {
 	    line-height: 44px;
 	}
 
+	.customCard {
+		padding-left:0px;
+		padding-right:0px;
+	}
+
 }
 
 @media (max-width: 768px) {
@@ -2005,6 +2045,16 @@ ul.partners-mentions li img:hover {
 		background-color: #fff;
 	}
 
+	.navbar-brand {
+		font-size: 25px;
+	}
+
+	.small-col-inside{
+		margin: 50px 0;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	
 	.home-section {
 		padding-top: 180px;
 	  	padding-bottom: 90px;
@@ -2064,6 +2114,12 @@ ul.partners-mentions li img:hover {
 	    background-attachment: inherit;
 	}
 
+	.customCard {
+		padding-left:0px;
+		padding-right:0px;
+	}
+
+
 }
 
 @media (max-width: 375px) {
@@ -2100,8 +2156,8 @@ ul.partners-mentions li img:hover {
 
 	.small-col-inside{
 		margin: 50px 0;
-		padding-right: 25px;
-		padding-left: 25px;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 
 	.partners img.partners {
@@ -2123,5 +2179,11 @@ ul.partners-mentions li img:hover {
 	    width: 100%;
 	    margin-left: 0;
 	}
+
+	.customCard {
+		padding-left:0px;
+		padding-right:0px;
+	}
+
 
 }
