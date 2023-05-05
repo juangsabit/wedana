@@ -7,7 +7,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
 
-    <title>Wedana Group</title>
+    <title>Potato Land Indonesia</title>
     
     <!-- Loading Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -602,7 +602,7 @@
                         <!--begin col-md-6-->
                         <div class="col-md-6">
 
-                            <h3 class="blog-title"><a target="_blank" href="https://www.antaranews.com/berita/1409426/kementan-catat-ekspor-kentang-ke-singapura-malaysia-meningkat">Kementan catat ekspor kentang ke Singapura-Malaysia meningkat</a></h3>
+                            <h3 class="blog-title"><a target="_blank" href="https://www.antaranews.com/berita/1409426/kementan-catat-ekspor-kentang-ke-singapura-malaysia-meningkat">The Ministry of Agriculture Indonesia noted an increase in potato exports to Singapore-Malaysia</a></h3>
 
                             <a target="_blank" href="https://www.antaranews.com/berita/1409426/kementan-catat-ekspor-kentang-ke-singapura-malaysia-meningkat" class="blog-link">Read More</a>
 
@@ -634,7 +634,7 @@
                         <!--begin col-md-6-->
                         <div class="col-md-6">
 
-                            <h3 class="blog-title"><a target="_blank" href="https://retizen.republika.co.id/posts/14518/potensi-ekpor-dan-produksi-kentang-indonesia-menuju-modern">Potensi Ekpor dan Produksi Kentang Indonesia Menuju Modern</a></h3>
+                            <h3 class="blog-title"><a target="_blank" href="https://retizen.republika.co.id/posts/14518/potensi-ekpor-dan-produksi-kentang-indonesia-menuju-modern">Indonesian Potato Export and Production Potential Toward Modern</a></h3>
                             
                             <a target="_blank" href="https://retizen.republika.co.id/posts/14518/potensi-ekpor-dan-produksi-kentang-indonesia-menuju-modern" class="blog-link">Read More</a>
 
@@ -672,7 +672,7 @@
                         <!--begin col-md-6-->
                         <div class="col-md-6">
 
-                            <h3 class="blog-title"><a target="_blank" href="https://www.pertanian.go.id/home/?show=news&act=view&id=4288">Meroket, Permintaan Ekspor Kentang asal Sumut</a></h3>
+                            <h3 class="blog-title"><a target="_blank" href="https://www.pertanian.go.id/home/?show=news&act=view&id=4288">Incredible! Export demand for Potatoes from Indonesia</a></h3>
                             
                             <a target="_blank" href="https://www.pertanian.go.id/home/?show=news&act=view&id=4288" class="blog-link">Read More</a>
 
@@ -704,7 +704,7 @@
                         <!--begin col-md-6-->
                         <div class="col-md-6">
 
-                            <h3 class="blog-title"><a target="_blank" href="https://databoks.katadata.co.id/datapublish/2022/06/13/pandemi-mereda-produksi-kentang-indonesia-kembali-meningkat-61-pada-2021">Produksi Kentang Indonesia Kembali Meningkat 6,1% pada 2021</a></h3>
+                            <h3 class="blog-title"><a target="_blank" href="https://databoks.katadata.co.id/datapublish/2022/06/13/pandemi-mereda-produksi-kentang-indonesia-kembali-meningkat-61-pada-2021">Indonesia's Potato Production Again Increases 6.1% in 2021</a></h3>
                             
                             <a target="_blank" href="https://databoks.katadata.co.id/datapublish/2022/06/13/pandemi-mereda-produksi-kentang-indonesia-kembali-meningkat-61-pada-2021" class="blog-link">Read More</a>
 
@@ -950,17 +950,17 @@
                     <!--begin footer_social -->
                     <ul class="footer_social">
 
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li>
 
                         <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
 
-                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li> -->
 
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://instagram.com/potatoland_indonesia"><i class="fab fa-instagram"></i></a></li>
 
-                        <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                        <li><a href="https://wa.me/6287718236889"><i class="fab fa-whatsapp"></i></a></li>
 
-                        <li><a href="#"><i class="fab fa-dribble"></i></a></li>
+                        <!-- <li><a href="#"><i class="fab fa-dribble"></i></a></li> -->
 
                     </ul>
                     <!--end footer_social -->
@@ -984,7 +984,7 @@
                 <!--begin col-md-12 -->
                 <div class="col-md-12 text-center">
                    
-                    <p>Copyright © 2023 <span class="template-name">WedanaGroup</span>.</p>
+                    <p>Copyright © <?=  date('Y') ?> <span class="template-name">WedanaGroup</span>.</p>
                     
                 </div>
                 <!--end col-md-6 -->
@@ -1030,9 +1030,9 @@
       "position":"right"
   },
   "brandSetting":{
-      "brandName":"Wedana",
+      "brandName":"Potato Land Indonesia",
       "brandSubTitle":"Online",
-      "brandImg":"https://cdn-icons-png.flaticon.com/512/560/560200.png",
+      "brandImg":"images/logo/plilogo.png",
       "welcomeText":"Hi there!\nFeel free to ask any informations you need to know.",
       "messageText":"Hello, I have a question about {{page_link}}",
       "backgroundColor":"#0a5f54",
